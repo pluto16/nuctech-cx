@@ -47,18 +47,20 @@
 				<p>产品界面图</p>
 				</div>
 				<div>
-				<object id="video" width="400" height="200" border="0" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
-				<param name="ShowDisplay" value="0">
-				<param name="ShowControls" value="1">
-				<param name="AutoStart" value="1">
-				<param name="AutoRewind" value="0">
-				<param name="PlayCount" value="0">
-				<param name="Appearance value="0 value=""">
-				<param name="BorderStyle value="0 value=""">
-				<param name="MovieWindowHeight" value="240">
-				<param name="MovieWindowWidth" value="320">
-				<param name="FileName" value="/Mbar.avi">
-				<embed width="400" height="200" border="0" showdisplay="0" showcontrols="1" autostart="1" autorewind="0" playcount="0" moviewindowheight="240" moviewindowwidth="320" filename="/Mbar.avi" src="Mbar.avi">
+				<object id="MediaPlayer" classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" width="400" height="300" standby="Loading Windows Media Player components…" type="application/x-oleobject" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,7,1112">
+			    <param name="FileName" value="test.avi">
+			    <param name="AutoStart" value="true">
+			    <param name="ShowControls" value="true">
+			    <param name="BufferingTime" value="2">
+			    <param name="ShowStatusBar" value="true">
+			    <param name="AutoSize" value="true">
+			    <param name="InvokeURLs" value="false">
+			    <param name="AnimationatStart" value="1">
+			    <param name="TransparentatStart" value="1">
+			    <param name="Loop" value="1">
+			    <embed type="application/x-mplayer2" src="./avi/IMG_7961.MOV" name="MediaPlayer" autostart="1" showstatusbar="1" showdisplay="1" showcontrols="1" loop="0" videoborder3d="0" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/" width="400" height="300"></embed>
+  </object>
+
 				</div>
 		</div>
 		<div class="cx_linda">
