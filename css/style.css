@@ -1,6 +1,73 @@
+/*
 #main{
 	float:left;
 }
 #test{
 	float:left;
+}*/
+.left{
+	width: 800px;
+	height: 400px;
+}
+.centerLeft{
+	float:left;
+	width: 50%;
+	height: 50;
+	
+}
+.centerLeft button{
+	width: 100px;
+	height: 20px;
+	background: none;
+	outline: none;
+	border: 1.5px solid rgb(40,130,201);
+	margin-left: 10px;
+	color:rgb(40,130,201);
+}
+.centerLeft dl{
+	width: 100%;
+	height: 100%;
+}
+.centerLeft dl dt{
+	width: 100%;
+	height: 100%;
+}
+.centerLeft dl dt img{
+	width: 150px;
+	height: 150px;
+}
+.centerLeft dl dd{
+	margin-top: 50px;
+}
+
+
+.centerRight{
+	float:left;
+	width: 50%;
+	height: 50;
+	
+}
+.centerRight button{
+	width: 100px;
+	height: 20px;
+	background: none;
+	outline: none;
+	border: 1.5px solid rgb(40,130,201);
+	margin-left: 10px;
+	color:rgb(40,130,201);
+}
+.centerRight dl{
+	width: 100%;
+	height: 100%;
+}
+.centerRight dl dt{
+	width: 100%;
+	height: 100%;
+}
+.centerRight dl dt img{
+	width: 150px;
+	height: 150px;
+}
+.centerRight dl dd{
+	margin-top: 50px;
 }
